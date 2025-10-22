@@ -1,0 +1,10 @@
+openapi: "3.0.2"
+info:
+  title: "Gateway"
+  version: "v1"
+  description: "Publicly accessible API"
+servers:
+- url: "https://test.api"
+paths:
+  /api/v1/cards:
+    $ref: endpoints/api-v1-cards.yaml
